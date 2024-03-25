@@ -5,8 +5,9 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 3rem;
-    background-color: #dfdfdf;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
 .container {
