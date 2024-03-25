@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+    margin: 3rem;
+    padding: 0;
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#opciones {
+    margin-left: 10px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#opciones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#opciones ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #01161e;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    width: 150px;
+    background-color: #124559;
+    transition: 0.2s;
+}
+
+#opciones ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: #aec3b0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#opciones ul li:hover {
+    background-color: #eff6e0;
+}
+
+#opciones ul li:hover a{
+    color: #124559;
+}
+
+#opciones ul li.back {
+    background-color: #9d0208;
+    color: #03071e;
+}
+
+#opciones ul li.back a{
+    color: #ffba08;
+}
+
+#opciones ul li.active {
+    background-color: #aec3b0;
+}
+
+#recuadro {
+    flex: 1 1 auto;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
